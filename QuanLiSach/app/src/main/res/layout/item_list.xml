@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:paddingLeft="20dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtMaSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã sách"
+        android:textSize="24dp"/>
+    <TextView
+        android:id="@+id/txtTenSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên sách"
+        android:textSize="24dp"/>
+    <TextView
+        android:id="@+id/txtGiaSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giá sách"
+        android:textSize="24dp"/>
+</LinearLayout>
+</LinearLayout>
