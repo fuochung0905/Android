@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <ImageView
+            android:id="@+id/btnImage"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/ic_launcher" />
+        <TextView
+            android:id="@+id/txtInformation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:text="Thông tin học sinh"/>
+        <ImageButton
+            android:id="@+id/btnedit"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_edit_24"/>
+        <ImageButton
+            android:id="@+id/btndelete"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_delete_24"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
