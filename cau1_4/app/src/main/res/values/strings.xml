@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">cau1_tulam</string>
+    <string name="title">Cau 1 De 2</string>
+    <string name="draw_view">Draw View:</string>
+    <string name="hint_draw_view">Draw View</string>
+
+</resources>
